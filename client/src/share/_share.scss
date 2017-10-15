@@ -1,0 +1,98 @@
+.buttonSendEmail {
+
+    .DayPicker-Day{
+        padding: 1% !important;
+    }
+
+    .btn-program-modal-margin{
+        margin-left: 20px;
+    }
+
+    @media(max-width: 960px){
+        .btn-program-modal-margin{
+            margin-left: 0px;
+        } 
+    }
+
+    @media(min-width: 600px){
+        .btn-send{
+            position: absolute;
+            bottom: 20px;
+            left: 17%;
+        }
+    }
+}
+
+.CardBlock:hover {
+    cursor: pointer;
+}
+
+.Listing {
+    .uk-icon:hover{
+        color: $secondaryColor;
+    }  
+}
+
+
+.LayoutContent {
+    margin: 0em;
+}
+
+@media(max-width: 960px){
+    .LayoutContent {
+        margin: 0em;
+    }
+}
+.List {
+    .uk-icon:hover{
+        cursor: pointer
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+    p{
+        margin-top: 0px;
+    }
+
+    .block-1{
+        h2{
+            color: $color1;
+        }
+        color: $color1
+    }
+
+    .block-2{
+        h2{
+            color: $color2;
+        }
+       color: $color2 
+    }
+
+    .block-3{
+        h2{
+            color: $color3;
+        }
+       color: $color3 
+    }
+    .block-4{
+        h2{
+            color: $color4;
+        }
+       color: $color4; 
+    }
+
+    thead tr{
+        background-color: $secondaryColor;
+    }
+
+    thead th{
+        color: white;
+    }
+}
+::input-placeholder{
+    color:    #909;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
