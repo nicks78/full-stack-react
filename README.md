@@ -1,24 +1,29 @@
-# full-stack-react
+# Full-stack-react
 
-Introduction
+# Introduction
 
 A react-express boilerplate with authentification system base on mobile/password. This project is base with react-create-app && express && mongoose && mongodb. This project include sass, uikit , jquery for better UI.
 
-Install
+# Install:
 	- Edit the config file  
+	
 	- cd root project 	=> npm install
+	
 	- cd /client 		=> npm install
+	
 	- /rootfolder		=> npm run server (run port 8080)
-	- /client			=> npm start (run port 3000)
+	
+	- /client		=> npm start (run port 3000)
+	
 
-TODO:
+# TODO:
  - Integrate socket.io
 
 
 
 
 
-License
+# License
 
 The MIT License (MIT)
 
